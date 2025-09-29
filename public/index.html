@@ -1,204 +1,235 @@
 <!doctype html>
 <html lang="ru" class="scroll-smooth">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Правовой щит — юридические услуги</title>
-  <meta name="description" content="Юридические услуги для бизнеса и частных лиц: договоры, споры, защита интересов. Оперативно, прозрачно, результативно." />
-  <meta name="theme-color" content="#151515" />
-  <meta property="og:title" content="Правовой щит — юридические услуги" />
-  <meta property="og:description" content="Договоры, судебные споры, сопровождение бизнеса. Мы защищаем, вы работаете." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="/favicon.svg" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23d4af37' d='M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z'/%3E%3Cpath fill='%23262626' d='M8 12l16-8 16 8-16 8z'/%3E%3C/svg%3E" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            gold: {50:'#fff9e6',100:'#fcefc2',200:'#f7dd85',300:'#f1c84a',400:'#eab308',500:'#d4af37',600:'#b28f2f',700:'#8f7126',800:'#6c551d',900:'#4a3914'},
-            graphite: {50:'#f6f6f6',100:'#e7e7e7',200:'#cfcfcf',300:'#b1b1b1',400:'#8f8f8f',500:'#6f6f6f',600:'#4f4f4f',700:'#3a3a3a',800:'#262626',900:'#151515'}
-          },
-          boxShadow: { glow: '0 0 0 1px rgba(212,175,55,0.2), 0 10px 30px -12px rgba(212,175,55,0.25)' }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Правовой щит — юридические услуги</title>
+    <meta name="description" content="Юридические услуги для бизнеса и частных лиц: договоры, споры, защита интересов. Оперативно, прозрачно, результативно." />
+    <meta name="theme-color" content="#151515" />
+    <meta property="og:title" content="Правовой щит — юридические услуги" />
+    <meta property="og:description" content="Договоры, судебные споры, сопровождение бизнеса. Мы защищаем, вы работаете." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.svg" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23d4af37' d='M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z'/%3E%3Cpath fill='%23262626' d='M8 12l16-8 16 8-16 8z'/%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {50:'#fff9e6',100:'#fcefc2',200:'#f7dd85',300:'#f1c84a',400:'#eab308',500:'#d4af37',600:'#b28f2f',700:'#8f7126',800:'#6c551d',900:'#4a3914'},
+                        graphite: {50:'#f6f6f6',100:'#e7e7e7',200:'#cfcfcf',300:'#b1b1b1',400:'#8f8f8f',500:'#6f6f6f',600:'#4f4f4f',700:'#3a3a3a',800:'#262626',900:'#151515'}
+                    },
+                    boxShadow: { glow: '0 0 0 1px rgba(212,175,55,0.2), 0 10px 30px -12px rgba(212,175,55,0.25)' }
+                }
+            }
         }
-      }
-    }
-  </script>
-  <style>.gold-gradient{background:linear-gradient(135deg,#d4af37 0%,#e6c766 30%,#b28f2f 60%,#7a6120 100%)}</style>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"LegalService","name":"Правовой щит","image":"/favicon.svg","description":"Юридические услуги для бизнеса и частных лиц: договоры, споры, сопровождение.","areaServed":"RU, KZ, EU","url":"https://pravovoishchit.example","logo":"/favicon.svg","priceRange":"$$","sameAs":["https://t.me/pravovoishchit"],"address":{"@type":"PostalAddress","addressCountry":"RU"},"telephone":"+7-000-000-00-00"}
-  </script>
+    </script>
+    <style>.gold-gradient{background:linear-gradient(135deg,#d4af37 0%,#e6c766 30%,#b28f2f 60%,#7a6120 100%)}</style>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"LegalService","name":"Правовой щит","image":"/favicon.svg","description":"Юридические услуги для бизнеса и частных лиц: договоры, споры, сопровождение.","areaServed":"RU, KZ, EU","url":"https://pravovoishchit.example","logo":"/favicon.svg","priceRange":"$$","sameAs":["https://t.me/pravovoishchit"],"address":{"@type":"PostalAddress","addressCountry":"RU"},"telephone":"+7-000-000-00-00"}
+    </script>
 </head>
 <body class="bg-graphite-900 text-graphite-50 selection:bg-gold-500/30">
-  <!-- NAV -->
-  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-graphite-900/70 border-b border-graphite-800">
+<!-- NAV -->
+<header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-graphite-900/70 border-b border-graphite-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-      <a href="#top" class="flex items-center gap-3 group">
-        <svg width="32" height="32" viewBox="0 0 64 64" class="shrink-0"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f1c84a"/><stop offset="50%" stop-color="#d4af37"/><stop offset="100%" stop-color="#8f7126"/></linearGradient></defs><path fill="url(#g)" d="M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z"/><path fill="#1f1f1f" d="M8 12l16-8 16 8-16 8z"/></svg>
-        <span class="font-semibold tracking-wide text-gold-300 group-hover:text-gold-200 transition">Правовой щит</span>
-      </a>
-      <nav class="hidden md:flex gap-6 text-sm">
-        <a href="#services" class="hover:text-gold-300">Услуги</a>
-        <a href="#advantages" class="hover:text-gold-300">Почему мы</a>
-        <a href="#contact" class="hover:text-gold-300">Контакты</a>
-      </nav>
-      <a href="#contact" class="hidden sm:inline-block rounded-xl border border-gold-500/40 bg-graphite-800/60 px-4 py-2 text-sm hover:shadow-glow">Получить консультацию</a>
+        <a href="#top" class="flex items-center gap-3 group">
+            <svg width="32" height="32" viewBox="0 0 64 64" class="shrink-0"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f1c84a"/><stop offset="50%" stop-color="#d4af37"/><stop offset="100%" stop-color="#8f7126"/></linearGradient></defs><path fill="url(#g)" d="M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z"/><path fill="#1f1f1f" d="M8 12l16-8 16 8-16 8z"/></svg>
+            <span class="font-semibold tracking-wide text-gold-300 group-hover:text-gold-200 transition">Правовой щит</span>
+        </a>
+        <nav class="hidden md:flex gap-6 text-sm">
+            <a href="#services" class="hover:text-gold-300">Услуги</a>
+            <a href="#advantages" class="hover:text-gold-300">Почему мы</a>
+            <a href="#contact" class="hover:text-gold-300">Контакты</a>
+        </nav>
+        <a href="#contact" class="hidden sm:inline-block rounded-xl border border-gold-500/40 bg-graphite-800/60 px-4 py-2 text-sm hover:shadow-glow">Получить консультацию</a>
     </div>
-  </header>
+</header>
 
-  <!-- HERO -->
-  <section id="top" class="relative overflow-hidden">
+<!-- HERO -->
+<section id="top" class="relative overflow-hidden">
     <div class="absolute inset-0 gold-gradient opacity-10 pointer-events-none -z-10"></div>
     <div class="absolute -top-24 -left-24 w-[36rem] h-[36rem] rounded-full gold-gradient blur-3xl opacity-10 pointer-events-none -z-10"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 grid relative z-10 md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h1 class="text-4xl md:text-5xl font-semibold leading-tight">Юридическая защита в сроки, без лишней воды</h1>
-        <p class="mt-5 text-graphite-300 max-w-xl">Договоры, претензии, судебные споры. Работаем прозрачно: фиксируем задачи, сроки и бюджет, регулярно отчётность.</p>
+        <div>
+            <h1 class="text-4xl md:text-5xl font-semibold leading-tight">Юридическая защита в сроки, без лишней воды</h1>
+            <p class="mt-5 text-graphite-300 max-w-xl">Договоры, претензии, судебные споры. Работаем прозрачно: фиксируем задачи, сроки и бюджет, регулярно даём отчётность.</p>
 
-        <!-- CTA КНОПКИ (все активны, без JS) -->
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a href="#contact" class="rounded-xl px-5 py-3 bg-gold-500 text-graphite-900 font-medium hover:bg-gold-400">Быстрая консультация</a>
-          <a href="#services" class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">Посмотреть услуги</a>
+            <!-- CTA -->
+            <div class="mt-8 flex flex-wrap gap-3">
+                <a href="#contact" class="rounded-xl px-5 py-3 bg-gold-500 text-graphite-900 font-medium hover:bg-gold-400">Быстрая консультация</a>
+                <a href="#services" class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">Посмотреть услуги</a>
 
-          <a href="https://wa.me/79990000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%B0%D0%B2%D1%83."
-             target="_blank" rel="noopener"
-             class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">WhatsApp</a>
+                <a href="https://wa.me/79990000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%B0%D0%B2%D1%83."
+                   target="_blank" rel="noopener"
+                   class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">WhatsApp</a>
 
-          <a href="https://t.me/pravovoishchit"
-             target="_blank" rel="noopener"
-             class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">Telegram</a>
+                <a href="https://t.me/pravovoishchit"
+                   target="_blank" rel="noopener"
+                   class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">Telegram</a>
 
-          <a href="mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F."
-             class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">E-mail</a>
+                <a href="mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%89%D0%B8%D1%82&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F."
+                   class="rounded-xl px-5 py-3 border border-gold-500/40 hover:shadow-glow">E-mail</a>
+            </div>
+
+            <div class="mt-8 flex items-center gap-6 text-sm text-graphite-400">
+                <div class="flex items-center gap-2"><span class="text-gold-400">★</span> 4.9/5 рейтинг</div>
+                <div>10+ лет практики</div>
+            </div>
         </div>
 
-        <div class="mt-8 flex items-center gap-6 text-sm text-graphite-400">
-          <div class="flex items-center gap-2"><span class="text-gold-400">★</span> 4.9/5 рейтинг</div>
-          <div>10+ лет практики</div>
-          <div>Бизнес и частные лица</div>
-        </div>
-      </div>
+        <div class="relative">
+            <div class="absolute -inset-6 rounded-3xl gold-gradient opacity-20 blur-xl pointer-events-none -z-10"></div>
+            <div class="relative rounded-3xl border border-graphite-800 bg-graphite-900 p-6 shadow-xl">
+                <!-- Карточки направлений -->
+                <div class="grid gap-4 sm:grid-cols-2">
+                    <article class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700">
+                        <h3 class="text-gold-300 font-medium text-sm">Семейные споры</h3>
+                        <ul class="mt-2 list-disc pl-5 text-graphite-200 text-sm space-y-1 leading-relaxed">
+                            <li>Расторжение брака</li>
+                            <li>Раздел имущества и кредитов</li>
+                            <li>Алименты, порядок общения</li>
+                            <li>Определение места жительства ребёнка</li>
+                            <li>Установление / оспаривание отцовства</li>
+                        </ul>
+                    </article>
 
-      <div class="relative">
-        <div class="absolute -inset-6 rounded-3xl gold-gradient opacity-20 blur-xl pointer-events-none -z-10"></div>
-        <div class="relative rounded-3xl border border-graphite-800 bg-graphite-900 p-6 shadow-xl">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700"><div class="text-gold-300 text-sm">Договоры</div><div class="mt-2 text-graphite-200 text-sm">Разработка, правки, анализ рисков</div></div>
-            <div class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700"><div class="text-gold-300 text-sm">Суды</div><div class="mt-2 text-graphite-200 text-sm">Иски, возражения, представительство</div></div>
-            <div class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700"><div class="text-gold-300 text-sm">Корпоративка</div><div class="mt-2 text-graphite-200 text-sm">Регистрация, изменения, сделки</div></div>
-            <div class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700"><div class="text-gold-300 text-sm">Абонентский</div><div class="mt-2 text-graphite-200 text-sm">Сопровождение бизнеса по SLA</div></div>
-          </div>
+                    <article class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700">
+                        <h3 class="text-gold-300 font-medium text-sm">Споры с застройщиком</h3>
+                        <ul class="mt-2 list-disc pl-5 text-graphite-200 text-sm space-y-1 leading-relaxed">
+                            <li>Устранение строительных недостатков</li>
+                            <li>Неустойка и штрафы по ДДУ/ДКП</li>
+                            <li>Расторжение договора и возврат средств</li>
+                            <li>Компенсация морального вреда и убытков</li>
+                        </ul>
+                    </article>
+
+                    <article class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700">
+                        <h3 class="text-gold-300 font-medium text-sm">Взыскание долгов</h3>
+                        <ul class="mt-2 list-disc pl-5 text-graphite-200 text-sm space-y-1 leading-relaxed">
+                            <li>Досудебная претензия</li>
+                            <li>Судебный приказ / иск</li>
+                            <li>Обеспечительные меры</li>
+                            <li>Розыск и арест имущества должника</li>
+                            <li>Сопровождение ФССП до взыскания</li>
+                        </ul>
+                    </article>
+
+                    <article class="rounded-xl bg-graphite-800/60 p-4 border border-graphite-700">
+                        <h3 class="text-gold-300 font-medium text-sm">Наследственные споры</h3>
+                        <ul class="mt-2 list-disc pl-5 text-graphite-200 text-sm space-y-1 leading-relaxed">
+                            <li>Восстановление срока принятия наследства</li>
+                            <li>Установление факта принятия имущества</li>
+                            <li>Признание права собственности</li>
+                            <li>Обязательная и супружеская доля</li>
+                            <li>Оспаривание завещания, споры с нотариусом</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- SERVICES -->
-  <section id="services" class="py-20 border-t border-graphite-800 bg-graphite-900">
+<!-- SERVICES -->
+<section id="services" class="py-20 border-t border-graphite-800 bg-graphite-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-semibold">Услуги</h2>
-      <p class="mt-3 text-graphite-300 max-w-2xl">Строим работу по понятной схеме: бриф → стратегия → действия → отчёт. Без сюрпризов в счёте.</p>
-      <div class="mt-10 grid md:grid-cols-3 gap-6">
-        <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
-          <h3 class="text-lg font-medium text-gold-300">Досудебная защита</h3>
-          <p class="mt-2 text-graphite-300 text-sm">Претензии, переговоры, медиация, взыскание задолженности.</p>
-          <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Оценка перспектив</li><li>Стратегия и сроки</li><li>Фиксированная стоимость</li></ul>
-        </article>
-        <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
-          <h3 class="text-lg font-medium text-gold-300">Судебные споры</h3>
-          <p class="mt-2 text-graphite-300 text-sm">Иски, отзывы, ходатайства, представительство во всех инстанциях.</p>
-          <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Под ключ</li><li>Фото/видео отчётность</li><li>Еженедельные апдейты</li></ul>
-        </article>
-        <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
-          <h3 class="text-lg font-medium text-gold-300">Договорная работа</h3>
-          <p class="mt-2 text-graphite-300 text-sm">Разработка, аудит, правки типовых и сложных договоров.</p>
-          <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Чёткие формулировки</li><li>ТП и спецификации</li><li>Риск-карта</li></ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ADVANTAGES -->
-  <section id="advantages" class="py-20 border-t border-graphite-800 bg-graphite-950">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-semibold">Почему выбирают нас</h2>
-      <div class="mt-10 grid md:grid-cols-3 gap-6">
-        <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Прозрачные условия</div><p class="mt-2 text-graphite-300 text-sm">Фиксируем задачи и KPI в договоре. Никаких скрытых платежей.</p></div>
-        <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Сроки под контроль</div><p class="mt-2 text-graphite-300 text-sm">Сервис-уровни и отчёт каждые 7 дней. Трекинг задач.</p></div>
-        <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Практика 10+ лет</div><p class="mt-2 text-graphite-300 text-sm">Решаем не теорию, а реальные кейсы в судах и переговорах.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRICING -->
-
-  <!-- CONTACT -->
-  <section id="contact" class="py-20 border-t border-graphite-800 bg-graphite-950">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-semibold">Связаться</h2>
-      <div class="mt-10 grid md:grid-cols-2 gap-10">
-        <form class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6" onsubmit="return (function(e){e.preventDefault(); const d=Object.fromEntries(new FormData(e.target).entries()); const body=encodeURIComponent(\`Имя: \${d.name}\nКонтакт: \${d.contact}\nЗадача: \${d.message||''}\`); window.location.href=\`mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0&body=\${body}\`; document.getElementById('form-status').textContent='Открываем почтовый клиент для отправки.'; return false;})(event)">
-          <label class="block text-sm text-graphite-300">Имя
-            <input required name="name" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"/>
-          </label>
-          <label class="block mt-4 text-sm text-graphite-300">Email/Телефон
-            <input required name="contact" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"/>
-          </label>
-          <label class="block mt-4 text-sm text-graphite-300">Кратко о задаче
-            <textarea rows="4" name="message" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"></textarea>
-          </label>
-          <button class="mt-6 w-full rounded-xl bg-gold-500 text-graphite-900 font-medium px-4 py-3 hover:bg-gold-400">Отправить</button>
-          <p id="form-status" class="mt-3 text-sm text-graphite-400" role="status" aria-live="polite"></p>
-
-          <!-- Быстрые контакты (тоже прямые ссылки) -->
-          <div class="mt-6 grid grid-cols-3 gap-3">
-            <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
-               target="_blank" rel="noopener"
-               href="https://wa.me/79990000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%B0%D0%B2%D1%83.">WhatsApp</a>
-            <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
-               target="_blank" rel="noopener"
-               href="https://t.me/pravovoishchit">Telegram</a>
-            <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
-               href="mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F.">E-mail</a>
-          </div>
-        </form>
-        <div class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6">
-          <div class="text-gold-300 font-medium">Оперативная консультация</div>
-          <p class="mt-2 text-graphite-300 text-sm">Опишите задачу и приложите ссылки на документы. Ответим в течение рабочего дня.</p>
-          <ul class="mt-4 text-sm text-graphite-300 space-y-2">
-            <li>Telegram: <a class="text-gold-300 hover:underline" target="_blank" rel="noopener" href="https://t.me/pravovoishchit">@pravovoishchit</a></li>
-              <li>Email:
-                  <a class="text-gold-300 hover:underline"
-                     href="mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0">
-                      gizya_85@mail.ru
-                  </a>
-              </li>
-            <li>WhatsApp: <a class="text-gold-300 hover:underline" target="_blank" rel="noopener" href="https://wa.me/79990000000">+7 999 000 00 00</a></li>
-          </ul>
-          <div class="mt-6 text-xs text-graphite-500">Отправляя форму, вы соглашаетесь с обработкой персональных данных и <a href="#policy" class="text-gold-300 hover:underline">политикой конфиденциальности</a>.</div>
+        <h2 class="text-3xl font-semibold">Услуги</h2>
+        <p class="mt-3 text-graphite-300 max-w-2xl">Строим работу по понятной схеме: бриф → стратегия → действия → отчёт. Без сюрпризов в счёте.</p>
+        <div class="mt-10 grid md:grid-cols-3 gap-6">
+            <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
+                <h3 class="text-lg font-medium text-gold-300">Досудебная защита</h3>
+                <p class="mt-2 text-graphite-300 text-sm">Претензии, переговоры, медиация, взыскание задолженности.</p>
+                <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Оценка перспектив</li><li>Стратегия и сроки</li><li>Фиксированная стоимость</li></ul>
+            </article>
+            <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
+                <h3 class="text-lg font-medium text-gold-300">Судебные споры</h3>
+                <p class="mt-2 text-graphite-300 text-sm">Иски, отзывы, ходатайства, представительство во всех инстанциях.</p>
+                <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Под ключ</li><li>Фото/видео отчётность</li><li>Еженедельные апдейты</li></ul>
+            </article>
+            <article class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6 hover:shadow-glow transition">
+                <h3 class="text-lg font-medium text-gold-300">Договорная работа</h3>
+                <p class="mt-2 text-graphite-300 text-sm">Разработка, аудит, правки типовых и сложных договоров.</p>
+                <ul class="mt-4 text-sm text-graphite-400 list-disc pl-5 space-y-1"><li>Чёткие формулировки</li><li>ТП и спецификации</li><li>Риск-карта</li></ul>
+            </article>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="py-10 border-t border-graphite-800 bg-graphite-900">
+<!-- ADVANTAGES -->
+<section id="advantages" class="py-20 border-t border-graphite-800 bg-graphite-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold">Почему выбирают нас</h2>
+        <div class="mt-10 grid md:grid-cols-3 gap-6">
+            <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Прозрачные условия</div><p class="mt-2 text-graphite-300 text-sm">Фиксируем задачи в договоре. Никаких скрытых платежей.</p></div>
+            <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Сроки под контроль</div><p class="mt-2 text-graphite-300 text-sm">Сервис-уровни и отчёт каждые 7 дней. Трекинг задач.</p></div>
+            <div class="rounded-2xl border border-graphite-800 p-6 bg-graphite-900/50"><div class="text-gold-300 font-medium">Практика 10+ лет</div><p class="mt-2 text-graphite-300 text-sm">Решаем не теорию, а реальные кейсы в судах и переговорах.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 border-t border-graphite-800 bg-graphite-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold">Связаться</h2>
+        <div class="mt-10 grid md:grid-cols-2 gap-10">
+            <form class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6" onsubmit="return (function(e){e.preventDefault(); const d=Object.fromEntries(new FormData(e.target).entries()); const body=encodeURIComponent(`Имя: ${d.name}\nКонтакт: ${d.contact}\nЗадача: ${d.message||''}`); window.location.href=`mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0&body=${body}`; document.getElementById('form-status').textContent='Открываем почтовый клиент для отправки.'; return false;})(event)">
+                <label class="block text-sm text-graphite-300">Имя
+                    <input required name="name" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"/>
+                </label>
+                <label class="block mt-4 text-sm text-graphite-300">Email/Телефон
+                    <input required name="contact" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"/>
+                </label>
+                <label class="block mt-4 text-sm text-graphite-300">Кратко о задаче
+                    <textarea rows="4" name="message" class="mt-1 w-full rounded-lg bg-graphite-800 border border-graphite-700 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gold-500/40"></textarea>
+                </label>
+                <button class="mt-6 w-full rounded-xl bg-gold-500 text-graphite-900 font-medium px-4 py-3 hover:bg-gold-400">Отправить</button>
+                <p id="form-status" class="mt-3 text-sm text-graphite-400" role="status" aria-live="polite"></p>
+
+                <!-- Быстрые контакты -->
+                <div class="mt-6 grid grid-cols-3 gap-3">
+                    <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
+                       target="_blank" rel="noopener"
+                       href="https://wa.me/79990000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%BF%D1%80%D0%B0%D0%B2%D1%83.">WhatsApp</a>
+                    <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
+                       target="_blank" rel="noopener"
+                       href="https://t.me/pravovoishchit">Telegram</a>
+                    <a class="text-center rounded-lg border border-gold-500/40 px-3 py-2 hover:shadow-glow"
+                       href="mailto:gizya_85@mail.ru?subject=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%89%D0%B8%D1%82&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F.">E-mail</a>
+                </div>
+            </form>
+            <div class="rounded-2xl border border-graphite-800 bg-graphite-900 p-6">
+                <div class="text-gold-300 font-medium">Оперативная консультация</div>
+                <p class="mt-2 text-graphite-300 text-sm">Опишите задачу и приложите ссылки на документы. Ответим в течение рабочего дня.</p>
+                <ul class="mt-4 text-sm text-graphite-300 space-y-2">
+                    <li>Telegram: <a class="text-gold-300 hover:underline" target="_blank" rel="noopener" href="https://t.me/pravovoishchit">@pravovoishchit</a></li>
+                    <li>Email: <a class="text-gold-300 hover:underline" href="mailto:gizya_85@mail.ru?subject=Заявка%20с%20сайта%20«Правовой%20щит»">gizya_85@mail.ru</a></li>
+                    <li>WhatsApp: <a class="text-gold-300 hover:underline" target="_blank" rel="noopener" href="https://wa.me/79990000000">+7 999 000 00 00</a></li>
+                </ul>
+                <div class="mt-6 text-xs text-graphite-500">Отправляя форму, вы соглашаетесь с обработкой персональных данных и <a href="#policy" class="text-gold-300 hover:underline">политикой конфиденциальности</a>.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-10 border-t border-graphite-800 bg-graphite-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div class="flex items-center gap-3">
-        <svg width="24" height="24" viewBox="0 0 64 64"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f1c84a"/><stop offset="50%" stop-color="#d4af37"/><stop offset="100%" stop-color="#8f7126"/></linearGradient></defs><path fill="url(#g2)" d="M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z"/></svg>
-        <span class="text-sm text-graphite-300">© <span id="year"></span> Правовой щит</span>
-      </div>
-      <nav class="text-sm text-graphite-400 flex gap-4">
-        <a href="#policy" class="hover:text-gold-300">Политика</a>
-        <a href="#contract" class="hover:text-gold-300">Договор</a>
-      </nav>
+        <div class="flex items-center gap-3">
+            <svg width="24" height="24" viewBox="0 0 64 64"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f1c84a"/><stop offset="50%" stop-color="#d4af37"/><stop offset="100%" stop-color="#8f7126"/></linearGradient></defs><path fill="url(#g2)" d="M32 4l16 8v12c0 13.3-8.5 25.1-21 29-12.5-3.9-21-15.7-21-29V12l16-8 10 5z"/></svg>
+            <span class="text-sm text-graphite-300">© <span id="year"></span> Правовой щит</span>
+        </div>
+        <nav class="text-sm text-graphite-400 flex gap-4">
+            <a href="#policy" class="hover:text-gold-300">Политика</a>
+            <a href="#contract" class="hover:text-gold-300">Договор</a>
+        </nav>
     </div>
-  </footer>
+</footer>
 
-  <script>
+<script>
     document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+</script>
 </body>
 </html>
