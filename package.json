@@ -3,9 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "start": "http-server public -p 3000 -c-1 --cors"
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "http-server": "^14.1.1"
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
   }
 }
